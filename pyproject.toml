@@ -34,7 +34,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-eval = ["pyyaml", "setuptools>=78.1", "fitz>=0.0.1.dev2"]
+eval = ["pyyaml", "requests", "setuptools>=78.1", "pymupdf"]
 dev = ["ruff", "pytest"]
 
 [project.scripts]

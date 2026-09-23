@@ -40,3 +40,20 @@ site/
 
 # Poetry (replaced by hatchling)
 poetry.lock
+
+# Local dependency repositories
+MT-AgentRisk/
+OpenHands/
+mcpmark-main/
+
+# Local dependency repositories
+MT-AgentRisk/
+OpenHands/
+mcpmark-main/
+
+# Local run scripts with credentials
+run_filesystem_defense.sh
+run_filesystem_retry_failed.sh
+run_notion.sh
+run_postgres.sh
+run_terminal_both.sh

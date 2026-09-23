@@ -666,17 +666,17 @@ def run_solver(runtime: Runtime, task_name: str, config: OpenHandsConfig, depend
         },
         "reddit": {
             "name": "Reddit (Forum)",
-            "url": "https://sa-forum-aa-0.chats-lab-gui-agent.uk",
+            "url": "http://localhost:9999",
             "creds": "Username: 'MarvelsGrantMan136', Password: 'test1234'"
         },
         "shopping": {
             "name": "Shopping Site",
-            "url": "https://sa-shopping-aa-0.chats-lab-gui-agent.uk",
+            "url": "http://localhost:7770",
             "creds": "Username: 'emma.lopez@gmail.com', Password: 'Password.123'"
         },
         "shopping_admin": {
             "name": "Shopping Admin Panel",
-            "url": "https://sa-shopping-admin-aa-0.chats-lab-gui-agent.uk/admin",
+            "url": "http://localhost:7780/admin",
             "creds": "Username: 'admin', Password: 'admin1234'"
         }
     }
